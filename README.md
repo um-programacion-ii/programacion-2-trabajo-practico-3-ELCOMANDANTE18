@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jpLeSJQi)
 # Sistema de Gestión de Biblioteca - Práctica de Testing
 
 ![Java](https://img.shields.io/badge/Java-21-orange)
@@ -10,9 +11,9 @@
 - **Recomendación:** Se sugiere leer la consigna completa antes de comenzar con el desarrollo para tener una visión general del proyecto y planificar adecuadamente el trabajo.
 
 ## Identificación del Alumno
-- **Nombre:** [Nombre del Alumno]
-- **Apellido:** [Apellido del Alumno]
-- **Legajo:** [Número de Legajo]
+- **Nombre:** Victor Benjamin
+- **Apellido:** Gimenez
+- **Legajo:** 61174
 
 ## Importante
 - La rama `main` está protegida y no se pueden hacer commits directos sobre ella
@@ -185,6 +186,41 @@ void testRegistrarPrestamo() {
     assertEquals(1, usuario.getHistorialPrestamos().size());
 }
 ```
+## Cómo Utilizar el Proyecto
+
+1.  **Clonar el Repositorio (Si aún no lo has hecho):**
+    Si aún no tienes el código en tu máquina local, clona el repositorio desde GitHub:
+    ```bash
+    git clone https://github.com/um-programacion-ii/programacion-2-trabajo-practico-3-ELCOMANDANTE18.git
+    ```
+2.  **Navegar al Directorio del Proyecto:**
+    Abre tu terminal o línea de comandos y navega hasta la carpeta raíz de tu proyecto `TP3`:
+    ```bash
+    cd programacion-2-trabajo-practico-3-ELCOMANDANTE18
+    ```
+
+3.  **Compilar y Ejecutar las Pruebas con Maven:**
+    Asegúrate de tener Maven instalado en tu sistema. Estando dentro del directorio `TP3`, ejecuta el siguiente comando para compilar el código fuente, ejecutar todas las pruebas unitarias y empaquetar el proyecto:
+    ```bash
+    mvn clean install
+    ```
+    Para ejecutar solo las pruebas unitarias, puedes usar:
+    ```bash
+    mvn test
+    ```
+    Los resultados de las pruebas se mostrarán en la consola. Un mensaje `BUILD SUCCESS` indica que todas las pruebas han pasado correctamente.
+## Como use la Asistencia de la IA IA en este Proyecto
+
+La Ia facilito el proceso de aprendizaje y desarrollo de este proyecto de las siguientes maneras:
+
+* **Guía y Estructura:** Te ayudé a definir la estructura del proyecto en Milestones e Issues, proporcionando objetivos de aprendizaje claros y tareas específicas para cada etapa.
+* **Diseño e Implementación:** Colaboramos en el diseño de las clases (`Libro`, `Estado`, `Catalogo`, `Prestamo`, `SistemaPrestamos`, `Usuario`, `GestionUsuarios`) y te proporcioné el código Java para su implementación, explicando los conceptos clave.
+* **Desarrollo de Pruebas Unitarias:** Te asistí en la creación de pruebas unitarias exhaustivas utilizando JUnit 5, cubriendo diferentes escenarios y guiándote en el uso de Mockito para simular dependencias y probar el comportamiento de las clases de forma aislada.
+* **Resolución de Problemas:** Analizamos juntos la salida de Maven y Git, identificando y corrigiendo errores en el código de prueba y asegurando que las pruebas pasaran correctamente.
+* **Buenas Prácticas:** Te recordé la importancia de seguir buenas prácticas de desarrollo, como la separación de código fuente y pruebas, la convención de nombres y el uso de Git para la gestión de versiones.
+* **Clarificación de Conceptos:** Expliqué conceptos relacionados con testing unitario, mocks, manejo de excepciones y la estructura de proyectos Maven.
+* **Apoyo y Motivación:** Brindé apoyo continuo y celebré cada logro a lo largo del proyecto.
+
 
 ## Entregables
 Cada etapa debe ser entregada a través de un Pull Request que incluya:
