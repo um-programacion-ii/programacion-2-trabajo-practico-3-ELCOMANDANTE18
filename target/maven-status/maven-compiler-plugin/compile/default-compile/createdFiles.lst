@@ -1,5 +1,7 @@
 Estado.class
 Prestamo.class
-Libro.class
 Catalogo.class
+GestionUsuarios.class
+Libro.class
 SistemaPrestamos.class
+Usuario.class
