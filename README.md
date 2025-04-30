@@ -196,7 +196,7 @@ void testRegistrarPrestamo() {
 2.  **Navegar al Directorio del Proyecto:**
     Abre tu terminal o línea de comandos y navega hasta la carpeta raíz de tu proyecto `TP3`:
     ```bash
-    cd TP3
+    cd programacion-2-trabajo-practico-3-ELCOMANDANTE18
     ```
 
 3.  **Compilar y Ejecutar las Pruebas con Maven:**
