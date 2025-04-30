@@ -186,6 +186,29 @@ void testRegistrarPrestamo() {
     assertEquals(1, usuario.getHistorialPrestamos().size());
 }
 ```
+## Cómo Utilizar el Proyecto
+
+1.  **Clonar el Repositorio (Si aún no lo has hecho):**
+    Si aún no tienes el código en tu máquina local, clona el repositorio desde GitHub:
+    ```bash
+    git clone https://github.com/um-programacion-ii/programacion-2-trabajo-practico-3-ELCOMANDANTE18.git
+    ```
+2.  **Navegar al Directorio del Proyecto:**
+    Abre tu terminal o línea de comandos y navega hasta la carpeta raíz de tu proyecto `TP3`:
+    ```bash
+    cd TP3
+    ```
+
+3.  **Compilar y Ejecutar las Pruebas con Maven:**
+    Asegúrate de tener Maven instalado en tu sistema. Estando dentro del directorio `TP3`, ejecuta el siguiente comando para compilar el código fuente, ejecutar todas las pruebas unitarias y empaquetar el proyecto:
+    ```bash
+    mvn clean install
+    ```
+    Para ejecutar solo las pruebas unitarias, puedes usar:
+    ```bash
+    mvn test
+    ```
+    Los resultados de las pruebas se mostrarán en la consola. Un mensaje `BUILD SUCCESS` indica que todas las pruebas han pasado correctamente.
 
 ## Entregables
 Cada etapa debe ser entregada a través de un Pull Request que incluya:
