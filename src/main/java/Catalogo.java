@@ -17,6 +17,9 @@ public class Catalogo {
     public Libro buscarLibroPorISBN(String isbn) {
         return this.libros.get(isbn);
     }
+    public int obtenerCantidadDeLibros() {
+        return this.libros.size();
+    }
 
     public List<Libro> obtenerLibrosDisponibles() {
         List<Libro> disponibles = new ArrayList<>();
