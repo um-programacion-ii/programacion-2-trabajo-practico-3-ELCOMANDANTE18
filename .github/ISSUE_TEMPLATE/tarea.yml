@@ -1,0 +1,60 @@
+name: Tarea de desarrollo para Gestión de Biblioteca
+description: Crear una nueva tarea para el proyecto de gestión de biblioteca, vinculada a un milestone específico.
+title: "[Tarea] "
+labels: ["tarea"]
+assignees:
+  -
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Completa los siguientes campos para registrar esta tarea correctamente.**
+        Recordá vincular este issue al *milestone* correspondiente y al *project board* del proyecto de Gestión de Biblioteca.
+        Asegúrate de crear una rama `feature` siguiendo el patrón `feature/issue-numero-descripcion` para trabajar en esta tarea.
+
+  - type: input
+    id: objetivo
+    attributes:
+      label: Objetivo de la Tarea
+      description: ¿Qué funcionalidad o aspecto específico del sistema de biblioteca se busca implementar o probar con esta tarea?
+      placeholder: Implementar la funcionalidad de búsqueda de libros por ISBN en el Catálogo.
+    validations:
+      required: true
+
+  - type: textarea
+    id: detalles
+    attributes:
+      label: Detalles de Implementación
+      description: Describe los pasos técnicos o componentes clave involucrados en la realización de esta tarea. Sé específico sobre las clases, métodos o pruebas a implementar.
+      placeholder: |
+        - Crear o modificar el método `buscarLibroPorISBN` en la clase `Catalogo`.
+        - Escribir pruebas unitarias en `CatalogoTest` para verificar búsquedas exitosas y fallidas.
+        - Asegurarse de manejar el caso en que el ISBN no existe.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: milestone
+    attributes:
+      label: Etapa / Milestone del Proyecto
+      description: Selecciona la etapa del proyecto de gestión de biblioteca a la que pertenece esta tarea.
+      options:
+        - Milestone 1: Configuración Inicial y Pruebas Básicas
+        - Milestone 2: Implementación del Catálogo
+        - Milestone 3: Sistema de Préstamos
+        - Milestone 4: Sistema de Usuarios
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist de Finalización
+      description: Marca los puntos que deben cumplirse para considerar esta tarea como terminada.
+      options:
+        - label: La funcionalidad o prueba está implementada correctamente.
+        - label: Se han escrito y pasado las pruebas unitarias correspondientes (si aplica).
+        - label: Se ha creado una rama `feature` específica para esta tarea.
+        - label: Se ha abierto un Pull Request hacia la rama `main` (o la rama de desarrollo designada) que menciona este Issue.
+        - label: El Pull Request ha recibido al menos una aprobación (si es requerido).
+        - label: Se ha documentado cualquier cambio relevante en el código.
