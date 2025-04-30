@@ -209,6 +209,18 @@ void testRegistrarPrestamo() {
     mvn test
     ```
     Los resultados de las pruebas se mostrarán en la consola. Un mensaje `BUILD SUCCESS` indica que todas las pruebas han pasado correctamente.
+## Como use la Asistencia de la IA IA en este Proyecto
+
+La Ia facilito el proceso de aprendizaje y desarrollo de este proyecto de las siguientes maneras:
+
+* **Guía y Estructura:** Te ayudé a definir la estructura del proyecto en Milestones e Issues, proporcionando objetivos de aprendizaje claros y tareas específicas para cada etapa.
+* **Diseño e Implementación:** Colaboramos en el diseño de las clases (`Libro`, `Estado`, `Catalogo`, `Prestamo`, `SistemaPrestamos`, `Usuario`, `GestionUsuarios`) y te proporcioné el código Java para su implementación, explicando los conceptos clave.
+* **Desarrollo de Pruebas Unitarias:** Te asistí en la creación de pruebas unitarias exhaustivas utilizando JUnit 5, cubriendo diferentes escenarios y guiándote en el uso de Mockito para simular dependencias y probar el comportamiento de las clases de forma aislada.
+* **Resolución de Problemas:** Analizamos juntos la salida de Maven y Git, identificando y corrigiendo errores en el código de prueba y asegurando que las pruebas pasaran correctamente.
+* **Buenas Prácticas:** Te recordé la importancia de seguir buenas prácticas de desarrollo, como la separación de código fuente y pruebas, la convención de nombres y el uso de Git para la gestión de versiones.
+* **Clarificación de Conceptos:** Expliqué conceptos relacionados con testing unitario, mocks, manejo de excepciones y la estructura de proyectos Maven.
+* **Apoyo y Motivación:** Brindé apoyo continuo y celebré cada logro a lo largo del proyecto.
+
 
 ## Entregables
 Cada etapa debe ser entregada a través de un Pull Request que incluya:
